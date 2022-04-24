@@ -1,0 +1,300 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/***********************************************
+*               HEADER                         *
+/**********************************************/
+
+header{
+    position: sticky;
+    background-color: white;
+    padding: 20px 0 20px 0;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+}
+
+header nav{
+    font-size: 2em;
+    text-align: left;
+    margin-left: 2em;
+}
+
+header img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+header strong{
+    display: inline-block;
+    font-size: 0.9em;
+}
+
+
+header pre{
+    display: inline-block;
+    margin-right: 20em;
+    font-size: 0.65em;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+header a{
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 100;
+    transition: 0.2s;
+}
+
+header a:hover{
+    transform: translateY(-5px);
+}
+
+header #CV{
+    color: blue;
+}
+
+header a:hover{
+    color: blue;
+}
+
+/***********************************************
+*                   MAIN                       *
+/**********************************************/
+
+main{
+    background-color: #E6DACE;
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+main img{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align:baseline;
+    margin-right: 10px;
+}
+
+main h1{
+    display: inline-block;
+    font-size: 2.7em;
+}
+
+
+main h2{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+main #formation{
+    margin-right: 21em;
+    margin-top: 2em;
+}
+
+main #telechargerCV{
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    background-color: blue;
+    border: solid blue;
+    padding: 6px 35px 6px 35px;
+    border-radius: 26px;
+    margin-left: 23em;
+    transition: 0.5s;
+}
+
+main #telechargerCV:hover{
+    color: black;
+    background-color: #E6DACE;
+    border: solid blue;
+}
+
+main article{
+    background-color: white;
+    width: 44%;
+    margin: 50px auto 30px auto;
+    box-shadow: -2px 4px 12px #8A8A8A;
+    height: auto;
+    padding: 55px 25px 40px 40px;
+    transition: 0.2s;
+}
+
+main article:hover{
+    transform: translateY(-5px);
+    box-shadow: -2px 4px 12px #8A8A8A;
+}
+
+main article h3{
+    color: blue;
+    margin: 10px 10px 5px 10px;
+}
+
+main article strong{
+    font-size: 1em;
+    margin: 7px 15px 10px 10px;
+    font-weight: 500;
+}
+
+main article pre{
+    margin: 7px 15px 10px 10px;
+}
+
+main article div{
+    display: inline-block;
+    border-left: 10px solid blue;
+    width: 40%;
+    margin-top: 25px;
+    text-align: left;
+    vertical-align: top;
+
+}
+
+main article p{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    line-height: 25px;
+    width: 50%;
+    text-align: justify;
+}
+
+main #comp h4{
+    text-align: left;
+    font-size: 1.6em;
+    font-weight: 800;
+    margin: 20px 0 16px 0 ;
+}
+
+main #comp p{
+    width: 95%;
+    font-size: 0.9em;
+    margin: 15px;
+    line-height: 10px;
+}
+
+main #comp h5{
+    font-size: 1.2em;
+    margin: 10px 0 15px 20px;
+    text-align: left;
+}
+
+main #comp h5 + p{
+    margin-left: 50px;
+}
+
+main #comp img{
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    vertical-align: middle;
+}
+
+
+
+/***********************************************
+*               FOOTER                         *
+/**********************************************/
+
+footer{
+    text-align: center;
+    height: 7em;
+}   
+
+footer article{
+    margin-top: 2em;
+}
+
+footer article p{
+    display: inline-block;
+    font-size: 0.9em;
+    margin-left: 50px;
+    margin-right: auto; 
+    vertical-align: baseline;  
+}
+
+
+footer article img{
+    width: 20px;
+    height: 20px;
+    margin: 2px 4px 0 4px;
+    transition: 0.2s;
+}
+
+footer article img:hover{
+    transform: translateY(-5px);
+    box-shadow: rgb(214 214 214) 0 10px 40px 0;
+}
+
+
+/***********************************************
+*               MEDIA QUERY                    *
+/**********************************************/
+
+@media screen and (min-width: 1300px) and (max-width: 1400px){
+
+    /***********************************************
+    *               HEADER                         *
+    /**********************************************/
+
+    header pre{
+        margin-right: 12.5em;
+    }
+
+    header nav {
+        margin-left: 1em;
+    }
+
+    /***********************************************
+    *                   MAIN                       *
+    /**********************************************/
+
+
+    main #formation{
+        margin-right: 18em;
+    }
+
+    main #comp p{
+        line-height: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px){
+
+    /***********************************************
+    *               HEADER                         *
+    /**********************************************/
+
+    header pre{
+        margin-right: 16em;
+    }
+
+    header nav {
+        margin-left: 1.5em;
+    }
+
+    /***********************************************
+    *                   MAIN                       *
+    /**********************************************/
+
+    main #comp p{
+        line-height: 20px;
+    }
+}
